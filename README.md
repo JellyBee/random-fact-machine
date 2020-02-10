@@ -1,4 +1,4 @@
-# Random Fct Machine
+# Random Fact Machine
 Random fun fact app.
 
 This is a littly Vanilla JS project I did during my #100DaysOfCode. Just for fun.
