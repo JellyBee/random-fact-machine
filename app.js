@@ -35,7 +35,7 @@ var factsPenguin = [
     'Emperor penguins incubate their eggs on their feet, staying that way until the eggs hatch.',
     'The largest penguin colonies include hundreds of thousands of birds.',
     'Penguins are highly social. They even swim and feed in groups.',
-    'Penguins can drink salt water because of special gland, that filters salt from the bloodstream.'
+    'Penguins can drink salt water, because of a special gland, that filters salt from the bloodstream.'
 ];
 
 var buttons = document.getElementsByClassName('btn');
