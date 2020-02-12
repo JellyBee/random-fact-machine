@@ -60,7 +60,11 @@ function setFunFact() {
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function() {
             fact = generateFact(this.value);
-            factText.textContent = fact;
+            factText.style.opacity = 0;
+            setTimeout(function() {
+                factText.textContent = fact;
+                factText.style.opacity = 1;
+            }, 200);
         });
     }
 }
@@ -85,10 +89,6 @@ function generateFact(animal) {
         return fact;
 
     } else {
-        console.log('This is not an animal.');
+        // Do nothing
     }
 }
-
-document.querySelector('.wrapper-inner').addEventListener('click', function() {
-    console.log('This is not an animal.');
-});
